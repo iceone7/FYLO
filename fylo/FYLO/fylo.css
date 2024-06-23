@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page-wraper {
+    padding: 30px 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+
+.get-start {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.get-start-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.get-start-img {
+    flex: 1;
+    height: auto;
+    width: 50%;
+}
+
+.get-start-title {
+    font-size: 65px;
+}
+
+.get-start-paragraph {
+    font-size: 26px;
+}
+
+.get-start-submite {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+.get-start-email {
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.stay-paragraph {
+    color: hsl(170, 45%, 43%);
+    font-size: 26px;
+}
+
+.border {
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: auto;
+    width: 50%;
+}
+
+.border-text {
+    padding: 10px 20px;
+}
+
+.border-img-avatar {
+    border-radius: 60px;
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.geo-paragraph {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-access {
+    margin-top: 50px;
+    height: 250px;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+}
+
+.access {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.access-text {
+    padding: 20px 10px;
+    margin: 40px 450px 0 20px;
+    
+}
+
+
+.access-from {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.footer {
+    padding: 60px 0;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+
+}
+
+.footer-img {
+    padding-left: 30px;
+}
+
+.footer-content {
+    padding-left: 30px;
+    display: flex;
+    gap: 300px;
+    margin-top: 10px;
+}
+
+.footer-content-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.access-from-email {
+    padding: 10px;
+    padding-right: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.access-from-submit {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer-content-socials {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    gap: 5px;
+}
+
+.footer-content-email {
+    margin-top: 10px;
+}
